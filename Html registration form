@@ -1,0 +1,11 @@
+<html>
+<head><title>Home page</title></head>
+<body>
+<form>
+username:<input type="text" name="username"><br>
+password:<input type="password" name="password"><br>
+email: <input type="text" name="email"><br>
+<input type ="submit" name ="sign up" value="SUBMIT"><br>
+</form>
+</body>
+</html>
