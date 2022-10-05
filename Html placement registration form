@@ -1,0 +1,45 @@
+<html>
+<head><title>Placement Registration</title></head>
+<body>
+<form>
+
+  <input type="radio" id="mr" value="Mr">
+  <label for="Mr">Mr</label>
+  <input type="radio" id="mrs."value="Mrs.">
+  <label for="mrs.">Mrs.</label>
+  <input type="radio" id="ms." value="Ms.">
+  <label for="ms.">Ms.</label><br>
+  Student Id:<input type="text" name="student id" placeholder="Student Id"><br>
+  First Name:<input type="text" name="first name" placeholder="First Name"><br>
+  Last Name:<input type="text" name="last name" placeholder="Last Name"><br>
+  Password:<input type="text" name="password" placeholder="Password"><br>
+  Address:<br>
+  <textarea input type="text" name="adress" rows="4" cols="30"></textarea><br>
+  City:<input type="text" name="city"><br>
+  State:
+<select>
+    <option value="telangana">Telangana</option>
+    <option value="andhra pradesh">Andhra Pradesh</option>
+    <option value="maharashtra">Maharashtra</option>
+    <option value="tamilnadu">Tamilnadu</option>
+  </select><br>
+  Pincode:<input type="number" name="pincode" ><br>
+  Upload photo:<input type="file" name="upload photo" value="choose file"><br>
+  Email:<input type="text" name="email" ><br>
+  Mobile:<input type="tel" name="mobile" placeholder="+91"><br>
+  Languages Known:<br>
+   <input type="checkbox"  name="language 1" value="english">
+  <label class="checkbox-inline" for="language1"> English</label><br>
+  <input type="checkbox" name="language2" value="telugu">
+  <label for="language2"> Telugu</label><br>
+  <input type="checkbox" name="language3" value="Hindi">
+  <label for="language3"> Hindi</label><br>
+  Additional Info:<br>
+  <textarea input type="text" name="additional info" placeholder="Optional" rows="4" cols="30"></textarea><br><br>
+  <input type="checkbox" name="check" >
+  <label for="check">Accepting all the terms and conditions </label><br><br>
+  <input type="submit" name="submit" value="submit" >
+   <input type="reset" name="Reset" value="reset" >
+   </form>
+   </body>
+   </html>
